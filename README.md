@@ -16,6 +16,7 @@ The topology was designed, configured, and tested using **Cisco Packet Tracer**.
 The network consists of multiple access switches connected to a central switch using trunk links.
 
 ![Network Topology](topology.png)
+<img width="1923" height="1053" alt="Screenshot 2025-12-17 192827" src="https://github.com/user-attachments/assets/7bf55247-9e17-4dd3-be97-50b5151ab640" />
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -83,10 +84,17 @@ Each VLAN is assigned to access ports on different switches.
 ### 🟦 VLAN Configuration (show vlan)
 The screenshots below confirm VLAN creation and port assignments on all switches.
 
-![VLAN Switch0](vlan-switch0.png)  
-![VLAN Switch1](vlan-switch1.png)  
-![VLAN Switch2](vlan-switch2.png)  
-![VLAN Switch3](vlan-switch3.png)
+![VLAN Switch0](images/vlan-switch0.png)
+![photo_2025-12-17_21-37-24](https://github.com/user-attachments/assets/0e4ccf8a-f581-4c7c-81a2-d63370e220ed)
+
+![VLAN Switch1](images/vlan-switch1.png)
+![photo_2025-12-17_21-37-37](https://github.com/user-attachments/assets/f4a25db9-0a61-4eca-b569-88b276308e3b)
+
+![VLAN Switch2](images/vlan-switch2.png) 
+![photo_2025-12-17_21-38-05](https://github.com/user-attachments/assets/d9a1f46f-5873-4075-8222-0529c16a3c7d)
+
+![VLAN Switch3](images/vlan-switch3.png)
+<img width="1917" height="941" alt="Screenshot 2025-12-17 192927" src="https://github.com/user-attachments/assets/54a19729-aae2-4f75-95ec-3839077dbf9d" />
 
 ---
 
@@ -94,6 +102,7 @@ The screenshots below confirm VLAN creation and port assignments on all switches
 The following screenshot confirms that trunk ports are active and carrying VLAN traffic between switches.
 
 ![Trunk Status](trunk-status.png)
+![photo_2025-12-17_21-38-45](https://github.com/user-attachments/assets/28e6e51c-5bcd-4634-ae87-bb2226e90ec9)
 
 ---
 
@@ -101,6 +110,7 @@ The following screenshot confirms that trunk ports are active and carrying VLAN 
 Ping tests confirm successful communication between devices within the same VLAN across different switches.
 
 ![Ping Test](ping-test.png)
+<img width="1923" height="1033" alt="Screenshot 2025-12-17 193252" src="https://github.com/user-attachments/assets/9974485f-2cbc-42ed-b7bf-8d8d02683ae4" />
 
 ---
 
